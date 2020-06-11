@@ -7,7 +7,7 @@ class Person
   def initialize(hash)
     attributes.each {|key, value| self.send(("#{key}="), value)}
   end
-end  
+
 
 
 end
